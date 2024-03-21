@@ -1,0 +1,56 @@
+{
+  "name": "aperiamcupiditate",
+  "version": "1.0.0",
+  "description": "A utility library for JavaScript and Typescript.",
+  "main": "dist/commonjs/index.js",
+  "module": "dist/es/index.js",
+  "jsnext:main": "dist/es/index.js",
+  "sideEffects": false,
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.3",
+    "marked": "^0.4.0",
+    "prettier": "^1.13.7",
+    "ts-jest": "^22.4.5",
+    "typedoc": "^0.11.1",
+    "typescript": "^2.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AllanParisian/aperiamcupiditate.git"
+  },
+  "keywords": [
+    "utils",
+    "eum",
+    "qui",
+    "programming",
+    "id"
+  ],
+  "author": "BryonSchuster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AllanParisian/aperiamcupiditate.git/issues"
+  },
+  "homepage": "https://github.com/AllanParisian/aperiamcupiditate.git",
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "/src/.*.test.(jsx?|tsx?)$",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.tsx",
+      "src/**/*.ts"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
